@@ -3,10 +3,11 @@ import { Card } from "./Card";
 import "./CardsContainer.css";
 import { ProductContext } from "../Contexts/ProductsContextProvider";
 import { Cart } from "./Cart";
+import { TotalContext } from "../Contexts/TotalContextProvider";
 
 export const CardsContainer = () => {
   const products = useContext(ProductContext);
-  console.log(products);
+  
 
   return (
     <div className="main">
